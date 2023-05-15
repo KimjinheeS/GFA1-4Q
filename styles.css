@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background: linear-gradient(45deg, #FFA07A, #ff6969);
+    height: 100px;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    color: rgb(11, 4, 70);
+    font-family: Helvetica;
+    text-align: center;
+    padding-top: 30px;
+    background: linear-gradient(44deg, #73ec8d, #6877ff);
+    height: 100px;
+  }
+
+  footer {
+    padding-top: 30px;
+    background: linear-gradient(44deg, #73ec8d, #6877ff);
+    height: 100px;
+  }
+  
+  p {
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 30%;
+    width: 40%;
+  }
+
+  .reas {
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 15px;
+    margin-left: 30%;
+    width: 40%;
+  }
+  
+  form {
+    margin: 50px auto;
+    width: 50%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type=text],
+  input[type=email],
+  input[type=tel] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  input[type=radio] {
+    margin-right: 10px;
+  }
+  
+  input[type=submit],
+  input[type=reset] {
+    background: #69ffa3;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover,
+  input[type=reset]:hover {
+    background: #27bebe;
+  }
+  
